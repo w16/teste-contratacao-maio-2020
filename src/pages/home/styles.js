@@ -25,6 +25,10 @@ export const CardSection = styled.div`
     padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
 `
 
 export const Card = styled.div`
@@ -35,6 +39,10 @@ export const Card = styled.div`
     background-size: cover;
     width: 100%;
     margin: 0px 10px;
+
+    @media (max-width: 600px){   
+        margin: 10px 0px;
+    }
 
 
     div {
@@ -120,6 +128,11 @@ export const LowerCard = styled.div`
                     height: 15px;
                     background-color: #24b9ff;
                     border-radius: 15px;
+
+                    @media (max-width: 600px){   
+                        display: none;
+                    }
+
                 }
 
             }
