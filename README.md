@@ -34,6 +34,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O desafio consistia em reproduzir o layout apresentado.
 
 ## :memo: Observações
+Conseguiria desenvolver o desafio proposto também em React Native (inclusive comecei), porém seria necessário mais tempo do que o proposto para concluir de forma adequada.
+
+Para rodar a aplicação:
+
 É necessário possuir Yarn ou NPM, utilize os comando abaixo de acordo com o que você possuir instalado.
 
 Para rodar a aplicação utilizar o comando 'yarn'/'npm i' no diretório raiz do projeto , após concluída a instalação dos pacotes, utilizar os comandos 'yarn start'/'npm start' no mesmo diretório, a aplicação iniciará automaticamente.
