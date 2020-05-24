@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, TextSection, CardSection, Card, CardText, LowerCard } from './styles'
+import { Container, TextSection, CardSection, Card, CardText, LinkButton, LowerCard } from './styles'
 import { AiOutlineLine, AiOutlineArrowRight } from 'react-icons/ai'
 import { IoMdRocket } from 'react-icons/io'
 
@@ -51,7 +51,7 @@ export default function index() {
                                 tincidunt. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Mauris
                                 ultrices eros in cursus turpis massa tincidunt dui.
                             </p>
-                            <button><AiOutlineArrowRight size={23} /></button>
+                            <LinkButton to='/products'><AiOutlineArrowRight size={23} /></LinkButton>
                         </CardText>
                     </Card>
 
@@ -66,7 +66,7 @@ export default function index() {
                                 integer quis. Integer eget aliquet nibh praesent tristique magna sit amet.
                                 Tellus at urna condimentum mattis pellentesque id.
                             </p>
-                            <button><AiOutlineArrowRight size={23} /></button>
+                            <LinkButton to='/cases'><AiOutlineArrowRight size={23} /></LinkButton>
                         </CardText>
                     </Card>
 
@@ -81,7 +81,7 @@ export default function index() {
                                 integer quis. Integer eget aliquet nibh praesent tristique magna sit amet.
                                 Tellus at urna condimentum mattis pellentesque id.
                             </p>
-                            <button><AiOutlineArrowRight size={23} /></button>
+                            <LinkButton to='/about'><AiOutlineArrowRight size={23} /></LinkButton>
                         </CardText>
                     </Card>
                 </CardSection>

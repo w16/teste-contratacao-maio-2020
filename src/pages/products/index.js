@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { Container } from './styles'
+
 export default function index() {
     return (
-        <div>
-            <h1>Products</h1>
-        </div>
+        <Container>
+            <h1>Here would be the products of this company</h1>
+        </Container>
     )
 }

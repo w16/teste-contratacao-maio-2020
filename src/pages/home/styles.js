@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
     padding: 50px 35px;
@@ -40,8 +41,14 @@ export const Card = styled.div`
         background: linear-gradient${props => props.background};
         height: 100%;
     }
+`
 
-    button{
+export const LinkButton = styled(Link)`
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background-color: #ffffff;
         color: #2ebeff;
         border: none;
         width: 65px;
@@ -52,7 +59,7 @@ export const Card = styled.div`
         &:hover{
             opacity: 0.8;
         }
-    }
+    
 `
 
 export const CardText = styled.div`
