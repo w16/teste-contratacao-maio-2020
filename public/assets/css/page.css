@@ -1,0 +1,109 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1fr 30px;
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+}
+
+header {
+    grid-area: header;
+    padding: 10px 30px;
+    box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.75);
+    background: linear-gradient(90deg, rgba(1,51,75,1) 19%, rgba(16,63,85,1) 30%, rgba(33,76,96,1) 40%, rgba(249,248,245,1) 100%);
+}
+
+header > img {
+    width: auto;
+    height: 130px;
+}
+
+main {
+    grid-area: main;
+    margin: 50px 80px;
+}
+
+.content-word {
+    width: 650px;
+    word-wrap: break-word;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    width: 370px;
+    margin: 30px 0px;
+}
+
+.picture-word {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 4px black;
+    opacity: 0.8;
+}
+
+.picture-word:hover {
+    opacity: 0.9;
+    
+}
+
+.picture-word img{
+    height: 100%;
+    width: 100%;
+}
+
+figcaption {
+    position: absolute;
+}
+
+
+.down-card {
+    margin: 15px;
+}
+
+.title-down-card {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.down-card  p {
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.btn-figcaption {
+    width: 50px;
+    border-radius: 10px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+}
+
+
+footer {
+    grid-area: footer;
+}
